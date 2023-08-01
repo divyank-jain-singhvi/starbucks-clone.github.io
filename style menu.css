@@ -1,0 +1,107 @@
+.menu{
+    display:flex;
+    width: 320px;
+}
+.link{
+    padding-left: 8%;
+    transition: all 0.2s;
+}
+.link:hover{
+    color:#00754a;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.login{
+    width:370px;
+    display: flex;
+    }
+.log{
+    transition: all 0.2s;
+}
+.lo{
+    width: 140px;
+    margin-right: 10%;
+}
+.log:hover{
+    color: #00754a;
+}
+.log2{
+    margin-right: 7%;
+    height: 31px;
+    border-radius: 17px;
+    padding-left: 15px;
+    padding-right:15px ;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    border-width: 1px;
+    font-weight: bold;
+    background-color: white;
+    transition: all 0.2s;
+    display:flex;
+    align-items: center;
+}
+.log2:hover{
+    background-color: rgb(230, 230, 230);
+}
+.log3{
+    background-color: black;
+    color:white;
+    font-weight: bold;
+    border-width: 1px;
+    height: 31px;
+    border-radius: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    transition: all 0.2s;
+    display:flex;
+    align-items: center;
+}
+.log3:hover{
+    background-color: rgb(83, 83, 83);
+}
+.mainmenu{
+    display: flex;
+    margin-left: 8px;
+    align-items: center;
+    justify-content: space-between;
+    flex:1;
+}
+.head{
+    display: flex;
+    margin-left: 3%;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+button:active{
+    height:27px;
+}
+.l{
+    width: 250px;
+    display: flex;
+    align-items: center;
+}
+.join{
+    color: white;
+}
+@media (max-width:800px){
+    .l{
+        display: block;
+        margin: 0px;
+        margin-right: 0px;
+    }
+    .log3{
+        margin-top: 3%;
+    }
+    .login{
+        display: flex;
+        align-items: center;
+    }
+}   
+@media(max-width:700px){
+    body{
+        display: none;
+    }
+} 

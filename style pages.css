@@ -1,0 +1,39 @@
+.spotify{
+    border-radius: 30px;
+    padding: 0px;
+    margin: 0px;
+    background-color: white;
+    border:none;
+    transform: all 0.2s;
+}
+.spotify1:hover{
+    height: 30px;
+}
+.otherpage{
+    display: flex;
+    justify-content: space-between;
+    width: 25%;
+    margin-left: 20px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+a.site{
+    padding-left:30px;
+    padding-right: 30px;
+}
+a.site:hover{
+    text-decoration: underline;
+}
+p.last{
+    color:#949090;
+    margin-left: 30px;
+}
+.otherpage2{
+    display: flex;
+}
+@media (max-width:745px){
+    .otherpage2{
+        display: flex;
+        flex-direction: column;
+    }
+}
